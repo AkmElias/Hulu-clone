@@ -30,9 +30,8 @@ function Nav({ setSelectedOption }) {
         Western
       </h2>
       <h2 onClick={() => setSelectedOption(requests.fetchAnimationMovies)}>
-        Anivation
+        Animation
       </h2>
-      <h2 onClick={() => setSelectedOption(requests.fetchTV)}>Movie</h2>
     </div>
   );
 }

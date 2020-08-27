@@ -12,7 +12,7 @@ const VideoCard = forwardRef(({ movie }, ref) => {
         alt="movie poster"
       />
       <TextTruncate
-        line={2}
+        line={1}
         element="p"
         truncateText="..."
         text={movie.overview}
